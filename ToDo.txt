@@ -1,0 +1,2 @@
+- Add indicator of current screengrab area
+- Add blanket overlay to prevent modification of other things on screen
