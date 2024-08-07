@@ -1,5 +1,7 @@
 [X] Add indicator of current screengrab area
 [X] Add blanket overlay to prevent modification of other things on screen
+[X] Fix double-clicking accidental activation of keybinds
+    - I think I fixed it, super jank tbh tho
 
-[] Fix double-clicking accidental activation of keybinds
 [] Add visual indicator of programs running
+[] Add user window to display perdinent information
