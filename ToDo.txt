@@ -2,6 +2,9 @@
 [X] Add blanket overlay to prevent modification of other things on screen
 [X] Fix double-clicking accidental activation of keybinds
     - I think I fixed it, super jank tbh tho
+[X] Add visual indicator of programs running
+[X] Add user window to display perdinent information
+    -[X] Add keybind information to user window
+    -[X] Fix tk root issues so both windows can work simultaneously
 
-[] Add visual indicator of programs running
-[] Add user window to display perdinent information
+[] Consider using PyQT for frontend UI instead of tkinter, maybe swap at later date since already started here.

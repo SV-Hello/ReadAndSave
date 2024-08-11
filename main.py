@@ -5,20 +5,18 @@ import tkinter as tk
 
 from KeyboardHandler import KeyboardHandler
 from ReadCapture import ReadCapture
-#from UserInterface import UserInterface
+from UserInterface import UserInterface
 
 def main():
     tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-    #root = tk.Tk()
+    root = tk.Tk()
 
-    #ui = UserInterface(root)
+    ui = UserInterface(root)
     read_capture = ReadCapture(tesseract_cmd)
-    handler = KeyboardHandler(read_capture)
+    handler = KeyboardHandler(read_capture, root)
     
-    print("Begin.")
-    handler.start_listening()
-    #print("HERE")
-    #root.mainloop()
-
+    #print("Begin.")
+    root.mainloop()
+    
 if __name__ == "__main__":
     main()
